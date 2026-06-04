@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soul Fitness | Premium Boutique Gym & Wellness Sanctuary</title>
+    <meta name="description" content="Welcome to Soul Fitness. A premium boutique gym dedicated to elite training, personal coaching, and holistic wellness. Experience fitness redefined at Kolkata's top-rated gym.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Minimalist Floating Header -->
+    <header class="header" id="main-header">
+        <div class="container navbar">
+            <a href="#" class="logo" id="nav-logo">
+                SOUL<span class="logo-accent">FITNESS</span>
+            </a>
+            
+            <nav class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link active" id="link-home">Home</a>
+                <a href="#about" class="nav-link" id="link-about">Philosophy</a>
+                <a href="#services" class="nav-link" id="link-services">Spaces</a>
+                <a href="#gallery" class="nav-link" id="link-gallery">Gallery</a>
+                <a href="#reviews" class="nav-link" id="link-reviews">Testimonials</a>
+                <a href="#contact" class="nav-link" id="link-contact">Contact</a>
+            </nav>
+            
+            <div class="nav-actions">
+                <a href="#contact" class="btn btn-primary" id="btn-nav-cta">Book Private Tour</a>
+                <button class="mobile-toggle" id="mobile-menu-toggle" aria-label="Toggle Menu">
+                    <i class="fa-solid fa-bars-staggered"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Full-Bleed Centered Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-bg-overlay"></div>
+        <div class="hero-content-wrapper container">
+            <div class="hero-content text-center">
+                <div class="badge" id="hero-badge">
+                    <span class="badge-line"></span>
+                    <span class="badge-text"><i class="fa-solid fa-star text-accent"></i> 4.9 Rating (387 Google Reviews)</span>
+                    <span class="badge-line"></span>
+                </div>
+                <h1 class="hero-title" id="hero-heading">
+                    Elevate Your Soul.<br>Align Your Body.
+                </h1>
+                <p class="hero-subtitle" id="hero-subheading">
+                    Welcome to Soul Fitness. A luxurious private training facility designed for those who seek elite strength coaching, premium spaces, and a mindful approach to physical refinement.
+                </p>
+                <div class="hero-ctas">
+                    <a href="#contact" class="btn btn-primary btn-lg" id="btn-hero-join">Request Complimentary Pass</a>
+                    <a href="#about" class="btn btn-outline btn-lg" id="btn-hero-learn">Our Philosophy</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Bar -->
+    <section class="stats-bar" id="stats">
+        <div class="container stats-grid">
+            <div class="stat-item" id="stat-1">
+                <span class="stat-num">4.9<span class="text-accent">★</span></span>
+                <span class="stat-label">Google Rating (387 Reviews)</span>
+            </div>
+            <div class="stat-item" id="stat-2">
+                <span class="stat-num">Private</span>
+                <span class="stat-label">Intimate Workout Environment</span>
+            </div>
+            <div class="stat-item" id="stat-3">
+                <span class="stat-num">Boutique</span>
+                <span class="stat-label">Luxury Amenities & Lockers</span>
+            </div>
+            <div class="stat-item" id="stat-4">
+                <span class="stat-num">Premium</span>
+                <span class="stat-label">Elite Strength & Cardio Gear</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Alternating Minimalist Rows Section -->
+    <section class="about section-padding" id="about">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-tag" id="about-tag">The Philosophy</span>
+                <h2 class="section-title" id="about-title">A Sanctuary for Wellness</h2>
+                <p class="section-subtitle">Redefining the fitness landscape through design, focus, and sophisticated coaching.</p>
+            </div>
+
+            <!-- Row 1: Vibe & Spaces -->
+            <div class="about-row">
+                <div class="row-content">
+                    <span class="row-num">01</span>
+                    <h3 class="row-title">Intimate Design, Elite Focus</h3>
+                    <p class="row-text">
+                        Soul Fitness is built to escape the chaotic atmosphere of standard commercial gyms. We limit capacity to preserve space, hygiene, and access to premium strength racks, free weights, and conditioning equipment. Enjoy a distraction-free workout environment tailored to your pacing.
+                    </p>
+                    <ul class="row-list">
+                        <li><i class="fa-solid fa-square-check text-accent"></i> Restricted member counts during peak slots</li>
+                        <li><i class="fa-solid fa-square-check text-accent"></i> Dedicated zones for power racks & free weights</li>
+                        <li><i class="fa-solid fa-square-check text-accent"></i> Premium acoustics and air purification</li>
+                    </ul>
+                </div>
+                <div class="row-visual">
+                    <div class="row-image-container">
+                        <img src="images/unnamed (1).webp" alt="Soul Fitness clean workout space" id="row-img-1">
+                        <div class="image-accent-border"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Row 2: Equipment (Alternating) -->
+            <div class="about-row row-reverse">
+                <div class="row-content">
+                    <span class="row-num">02</span>
+                    <h3 class="row-title">Premium Biomechanical Equipment</h3>
+                    <p class="row-text">
+                        Train on professional-grade biomechanical machinery selected for muscle targeting, safety, and natural load distribution. From plate-loaded isolation systems to high-end cable stations, every piece is curated to offer maximum output with minimal joint stress.
+                    </p>
+                    <ul class="row-list">
+                        <li><i class="fa-solid fa-square-check text-accent"></i> Elite plate-loaded isolation machines</li>
+                        <li><i class="fa-solid fa-square-check text-accent"></i> Heavy-duty power racks and olympic bars</li>
+                        <li><i class="fa-solid fa-square-check text-accent"></i> Advanced cardio decks with custom interface console</li>
+                    </ul>
+                </div>
+                <div class="row-visual">
+                    <div class="row-image-container">
+                        <img src="images/unnamed (2).webp" alt="Elite equipment at Soul Fitness" id="row-img-2">
+                        <div class="image-accent-border"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Row 3: Personal Training -->
+            <div class="about-row">
+                <div class="row-content">
+                    <span class="row-num">03</span>
+                    <h3 class="row-title">1-on-1 Personal Refinement</h3>
+                    <p class="row-text">
+                        Our resident coaches specialize in strength conditioning, fat redistribution, body toning, and recovery biology. Work with a dedicated trainer to implement weekly body mapping assessments, personalized nutrition plans, and custom workout structures.
+                    </p>
+                    <ul class="row-list">
+                        <li><i class="fa-solid fa-square-check text-accent"></i> Specialized custom personal training programs</li>
+                        <li><i class="fa-solid fa-square-check text-accent"></i> Scientific body composition tracking</li>
+                        <li><i class="fa-solid fa-square-check text-accent"></i> Custom nutritional support templates</li>
+                    </ul>
+                </div>
+                <div class="row-visual">
+                    <div class="row-image-container">
+                        <img src="images/unnamed (3).webp" alt="Personal coaching at Soul Fitness" id="row-img-3">
+                        <div class="image-accent-border"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services / Specific Zones Section -->
+    <section class="services section-padding" id="services">
+        <div class="container text-center">
+            <span class="section-tag" id="services-tag">Our Zones</span>
+            <h2 class="section-title" id="services-title">Curated Training Formats</h2>
+            <p class="section-subtitle">We organize our facility into specialized fitness fields to streamline your workouts.</p>
+            
+            <div class="services-grid">
+                <div class="service-card" id="service-strength">
+                    <div class="service-icon"><i class="fa-solid fa-compass"></i></div>
+                    <h3 class="service-title-card">Bespoke Strength</h3>
+                    <p class="service-desc">Targeted training routines utilizing elite racks, barbells, and machines to forge physical power and bone resilience.</p>
+                </div>
+                <div class="service-card" id="service-conditioning">
+                    <div class="service-icon"><i class="fa-solid fa-wind"></i></div>
+                    <h3 class="service-title-card">Vapor Conditioning</h3>
+                    <p class="service-desc">Cardiovascular stamina systems featuring professional rowing decks, heavy assault runs, and pacing stations.</p>
+                </div>
+                <div class="service-card" id="service-recovery">
+                    <div class="service-icon"><i class="fa-solid fa-spa"></i></div>
+                    <h3 class="service-title-card">Recovery & Mobility</h3>
+                    <p class="service-desc">Custom stretching routines, deep tissue release resources, and postural alignment programs to prevent injuries.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Minimalist Photo Gallery -->
+    <section class="gallery section-padding" id="gallery">
+        <div class="container">
+            <div class="gallery-header text-center">
+                <span class="section-tag" id="gallery-tag">The Sanctuary</span>
+                <h2 class="section-title" id="gallery-title">A Look Inside</h2>
+                <p class="section-subtitle">Explore the spaces, design aesthetics, and equipment inside Soul Fitness.</p>
+            </div>
+            
+            <div class="gallery-grid" id="gym-gallery-grid">
+                <div class="gallery-item" data-src="images/unnamed.webp">
+                    <img src="images/unnamed.webp" alt="Soul Fitness Zone 1">
+                    <div class="gallery-hover">
+                        <span>View Space</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-src="images/unnamed (1).webp">
+                    <img src="images/unnamed (1).webp" alt="Soul Fitness Zone 2">
+                    <div class="gallery-hover">
+                        <span>View Space</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-src="images/unnamed (2).webp">
+                    <img src="images/unnamed (2).webp" alt="Soul Fitness Zone 3">
+                    <div class="gallery-hover">
+                        <span>View Space</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-src="images/unnamed (3).webp">
+                    <img src="images/unnamed (3).webp" alt="Soul Fitness Zone 4">
+                    <div class="gallery-hover">
+                        <span>View Space</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-src="images/unnamed (4).webp">
+                    <img src="images/unnamed (4).webp" alt="Soul Fitness Zone 5">
+                    <div class="gallery-hover">
+                        <span>View Space</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-src="images/unnamed (5).webp">
+                    <img src="images/unnamed (5).webp" alt="Soul Fitness Zone 6">
+                    <div class="gallery-hover">
+                        <span>View Space</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-src="images/unnamed (6).webp">
+                    <img src="images/unnamed (6).webp" alt="Soul Fitness Zone 7">
+                    <div class="gallery-hover">
+                        <span>View Space</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-src="images/unnamed (7).webp">
+                    <img src="images/unnamed (7).webp" alt="Soul Fitness Zone 8">
+                    <div class="gallery-hover">
+                        <span>View Space</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Luxury Review Grid (Different from standard slider!) -->
+    <section class="reviews section-padding" id="reviews">
+        <div class="container">
+            <div class="reviews-header text-center">
+                <span class="section-tag" id="reviews-tag">Google Testimonials</span>
+                <h2 class="section-title" id="reviews-title">Excellence Valued by Members</h2>
+                <p class="section-subtitle">Real reviews from our community who value luxury space, professional training, and results.</p>
+            </div>
+            
+            <div class="reviews-grid">
+                <div class="review-box" id="review-1">
+                    <div class="review-meta">
+                        <div class="review-rating">4.9 ★</div>
+                        <div class="review-user">Siddharth Sen</div>
+                    </div>
+                    <h4 class="review-headline">"A Class Apart"</h4>
+                    <p class="review-quote">
+                        "Soul Fitness is unlike any commercial gym. The equipment biomechanics are phenomenal, the layout is highly clean and spacious, and there is no unnecessary crowd. The personal coaches are professional, structured, and very knowledgeable."
+                    </p>
+                </div>
+                
+                <div class="review-box" id="review-2">
+                    <div class="review-meta">
+                        <div class="review-rating">5.0 ★</div>
+                        <div class="review-user">Debarati Bose</div>
+                    </div>
+                    <h4 class="review-headline">"Best Workout Atmosphere"</h4>
+                    <p class="review-quote">
+                        "I love training here. The ambiance is extremely premium, air conditioning is always fresh, and they follow strict cleaning protocols. Accessing equipment is effortless because they restrict member slots. Highly recommend the boutique setup!"
+                    </p>
+                </div>
+                
+                <div class="review-box" id="review-3">
+                    <div class="review-meta">
+                        <div class="review-rating">5.0 ★</div>
+                        <div class="review-user">Rohan Sengupta</div>
+                    </div>
+                    <h4 class="review-headline">"Elite strength setups"</h4>
+                    <p class="review-quote">
+                        "The selection of plate loaded racks, weights, and high-end cardio machines is perfect for serious trainees. The staff is polite, helpful, and they build highly customized routines. 10/10 gym experience!"
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact & Lead Form Section -->
+    <section class="contact section-padding" id="contact">
+        <div class="container contact-grid">
+            <div class="contact-info">
+                <span class="section-tag" id="contact-tag">Get in Touch</span>
+                <h2 class="section-title" id="contact-title">Begin Your Refinement</h2>
+                <p class="contact-subtitle">
+                    Request an exclusive private facility tour or apply for a complimentary 1-day pass. We'll reach out to schedule your slot.
+                </p>
+                
+                <div class="contact-details">
+                    <a href="tel:07551096311" class="contact-item" id="phone-contact">
+                        <div class="contact-icon"><i class="fa-solid fa-phone"></i></div>
+                        <div>
+                            <p class="contact-label">Direct Desk</p>
+                            <p class="contact-value">075510 96311</p>
+                        </div>
+                    </a>
+                    
+                    <a href="https://www.google.com/maps/place/Soul+Fitness/@22.5878973,88.456811,17z/data=!3m1!4b1!4m6!3m5!1s0x3a0275c50866d4e5:0x9a387c30e7946d95!8m2!3d22.5878973!4d88.456811!16s%2Fg%2F11h_1z4r04?entry=ttu" target="_blank" class="contact-item" id="map-contact">
+                        <div class="contact-icon"><i class="fa-solid fa-location-dot"></i></div>
+                        <div>
+                            <p class="contact-label">Sanctuary Address</p>
+                            <p class="contact-value">Salt Lake, Sector 2, Kolkata</p>
+                        </div>
+                    </a>
+                    
+                    <div class="contact-item" id="hours-contact">
+                        <div class="contact-icon"><i class="fa-solid fa-sun"></i></div>
+                        <div>
+                            <p class="contact-label">Opening Slots</p>
+                            <p class="contact-value">Mon - Sat: 5:00 AM - 10:00 PM<br>Sunday: Closed</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="contact-form-container">
+                <form class="contact-form" id="lead-form">
+                    <h3 class="form-title">Apply For Access</h3>
+                    <p class="form-subtitle">Fill in your information below, and our coordinator will reach out to confirm your scheduled visit.</p>
+                    
+                    <div class="form-group">
+                        <label for="form-name">Full Name</label>
+                        <input type="text" id="form-name" placeholder="John Doe" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="form-phone">Phone Number</label>
+                        <input type="tel" id="form-phone" placeholder="Your Phone Number" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="form-goal">Primary Fitness Focus</label>
+                        <select id="form-goal" required>
+                            <option value="" disabled selected>Select primary goal</option>
+                            <option value="strength">Elite Strength Training</option>
+                            <option value="toning">Body Recomp & Toning</option>
+                            <option value="coaching">Bespoke 1-on-1 Personal Training</option>
+                            <option value="mobility">Posture, Flexibility & Recovery</option>
+                        </select>
+                    </div>
+                    
+                    <button type="submit" class="btn btn-primary btn-block" id="btn-form-submit">
+                        Submit Application <i class="fa-solid fa-angle-right"></i>
+                    </button>
+                    
+                    <p class="form-disclaimer">*Note: To preserve space, guest entries are strictly scheduled. First-time visitors only.</p>
+                </form>
+                <div class="form-success-message" id="form-success">
+                    <i class="fa-solid fa-circle-check text-accent"></i>
+                    <h3>Application Submitted</h3>
+                    <p>We've received your request. A coordinator will call you within 24 hours to schedule your session slot.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer" id="main-footer">
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <a href="#" class="logo">
+                    SOUL<span class="logo-accent">FITNESS</span>
+                </a>
+                <p class="footer-desc">
+                    Premium boutique fitness and strength sanctuary. Tailoring elite training experiences in Kolkata with specialized coaching setups and high-end biomechanics.
+                </p>
+                <div class="social-links">
+                    <a href="#" class="social-link"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" class="social-link"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" class="social-link"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+            
+            <div class="footer-links">
+                <h4>Navigation</h4>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">Philosophy</a></li>
+                    <li><a href="#services">Curated Spaces</a></li>
+                    <li><a href="#gallery">Inside Vibe</a></li>
+                    <li><a href="#reviews">Testimonials</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-links">
+                <h4>Inquiries</h4>
+                <p><i class="fa-solid fa-phone text-accent"></i> 075510 96311</p>
+                <p><i class="fa-solid fa-envelope text-accent"></i> info@soulfitness.in</p>
+                <p><i class="fa-solid fa-map-marker-alt text-accent"></i> Sector 2, Salt Lake, Kolkata</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Soul Fitness. All rights reserved. Made as a mock boutique landing site.</p>
+        </div>
+    </footer>
+
+    <!-- Custom Lightbox -->
+    <div class="lightbox" id="lightbox">
+        <button class="lightbox-close" id="lightbox-close" aria-label="Close Lightbox">&times;</button>
+        <button class="lightbox-prev" id="lightbox-prev" aria-label="Previous Image"><i class="fa-solid fa-chevron-left"></i></button>
+        <button class="lightbox-next" id="lightbox-next" aria-label="Next Image"><i class="fa-solid fa-chevron-right"></i></button>
+        <div class="lightbox-content">
+            <img src="" alt="Expanded View" id="lightbox-img">
+        </div>
+    </div>
+
+    <!-- Script file -->
+    <script src="script.js"></script>
+</body>
+</html>
